@@ -4,6 +4,9 @@ const products = [
   { name: "Table", category: "Furniture" },
 ];
 
+// Task
+// Create an object where each category contains an array of product names.
+// Expected Output
 // {
 //   Electronics: ["Laptop", "Phone"],
 //   Furniture: ["Table"]
