@@ -21,7 +21,6 @@ for(let i = 0 ; i <users.length -1 ;i++){
             min = j;
         }
     }
-
     let temp = users[i];
     users[i] = users[min];
     users[min] = temp;
