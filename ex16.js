@@ -15,6 +15,6 @@ let arr = [];
 for(let i =0 ; i<users.length ; i++){
     let fullName = users[i].firstName + '.' + users[i].lastName;
     arr.push(fullName);
-    fullName='';
+    // fullName='';
 }
 console.log(arr);

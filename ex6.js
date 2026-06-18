@@ -18,6 +18,6 @@ for(let i = 0 ; i<products.length;i++){
 
 console.log(obj);
 
-console.log(obj[1]);
+
 
 

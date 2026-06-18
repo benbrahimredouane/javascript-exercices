@@ -25,7 +25,7 @@ for (let i = 0; i < people.length; i++) {
     min++;
   }
 }
-obj.adults = add;
-obj.minors = min;
+obj['adults'] = add;
+obj['minors'] = min;
 
 console.log(obj);

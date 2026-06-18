@@ -9,14 +9,14 @@ const students = [
 // { name: "Leo", score: 92 }
 
 let hight = 0;
-let hobj = {};
+let obj = {};
 
-for(let i =0 ;i<students.length;i++){
+for(let i = 0 ;i<students.length;i++){
     if(students[i].score > hight){
         hight = students[i].score;
-        hobj = students[i];
+        obj = students[i];
     }
 
 }
-console.log(hight);
-console.log(hobj);
+
+console.log(obj);

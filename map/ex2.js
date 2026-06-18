@@ -6,7 +6,7 @@ const newusers = users.map((m) => {
     return{
         fullNmae : m.firstName + m.lastName,
         isAdult : m.age > 18 ? true : false,
-    }
+    };
   
 });
 console.log(newusers);
